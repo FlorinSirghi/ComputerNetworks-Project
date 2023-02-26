@@ -1,0 +1,12 @@
+Pentru compilarea/build sunt necesari urmatorii pasii :
+
+1.Rulati comanda : sudo apt-get install libx11-dev libglu1-mesa-dev freeglut3-dev libglew2.2 libglew-dev libglu1-mesa libgl1-mesa-glx libgl1-mesa-dev libglfw3-dev libglfw3
+aceasta instaleaza pachetele corespunzatoare librariilor utilizate in proiect, necesare compilarii proiectului
+
+2.In directorul build rulati comanda "cmake ..", apoi rulati comanda make.
+
+3.In directorul "Server_output" din directorul principal se va afla executabilul serverului, iar in "Client_output" se va afla executabilul clientului.
+
+
+
+
